@@ -1,0 +1,10 @@
+{{! NB use: ember generate component share-button --with-component-class }}
+<a
+  ...attributes
+  href={{this.shareURL}}
+  target="_blank"
+  rel="external nofollow noopener noreferrer"
+  class="share button"
+>
+  {{yield}}
+</a>
